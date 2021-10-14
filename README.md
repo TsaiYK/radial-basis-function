@@ -18,5 +18,7 @@ This RBF modeling is applied to the IDETC/CIE2021 paper to train the surrogate m
 ## References
 
 [1] Scholten, William, and Darren Hartl. "Uncoupled method for static aeroelastic analysis." Journal of Fluids and Structures 101 (2021): 103221.
+
 [2] Jin, Ruichen, Wei Chen, and Timothy W. Simpson. "Comparative studies of metamodelling techniques under multiple modelling criteria." Structural and multidisciplinary optimization 23, no. 1 (2001): 1-13.
+
 [3] Ying-Kuan Tsai, and Richard J. Malak. "A Methodology for Designing a Feedback Controller via Parametric Optimization: State-Parameterized Nonlinear Programming Control," Proceedings of the IDETC/CIE, Virtual Conference, Online, August 17-20, 2021, ASME Paper No. DETC2021-69295.
