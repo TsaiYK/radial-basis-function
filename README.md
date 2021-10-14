@@ -1,5 +1,7 @@
 # radial-basis-function
 
+![CodeCogsEqn](https://user-images.githubusercontent.com/33308568/137405080-7b8ead90-459e-462b-9d13-f8445394fbac.png)
+
 input_rbf: m-by-nX matrix, where m is the number of input of training data/samples and nX is the dimension of input.
 
 output_rbf: m-by-nY matrix, where nY is the dimension of output.
