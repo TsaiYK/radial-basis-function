@@ -15,7 +15,11 @@ R = sqrt(R);
 if strcmp(rbfType, 'linear')
     Phi = R;
 elseif strcmp(rbfType, 'cubic')
-    Phi = R^3;
+    Phi = R.^3;
+elseif strcmp(rbfType, 'gaussian')
+    Phi = exp(-R.^2);
+else
+    error('Unacceptable RBF kernal function type!')
 end
 
 A_2 = zeros(numberRuns+numberInputs+1,numberRuns+numberInputs+1);
