@@ -1,5 +1,5 @@
 clear
-close all; clc;
+% close all; clc;
 load('example_data.mat')
 
 %% Build the surrogate model: RBF
@@ -15,7 +15,7 @@ InputArray = input_rbf_normalized(1:num_sample,:); % The training data should be
 
 lambda_rbf = zeros(size(InputArray,1),numberOutput);
 gamma_rbf = zeros(numberInput+1,numberOutput);
-RBF_model.rbfType = 'linear';
+RBF_model.rbfType = 'gaussian';
 
 % Using RBF to build the surrogate model
 for i = 1:numberOutput
